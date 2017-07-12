@@ -1,0 +1,40 @@
+{
+  "name": "Car Lease Demo",
+  "description": "Blockchain demo for Car Lease starterkit",
+  "thumbnailURL": "blueprint/thumbnail.svg",
+  "appIconURL": "blueprint/appicon.svg",
+  "previewURLs": [],
+  "type": "WEB",
+  "tags": [
+    "blockchain"
+  ],
+  "demoURL": "https://github.com/mjperrins/car-lease-demo",
+  "generators": {
+    "node": [
+      "generator-starterkit-content-downloader",
+      "generator-cloud-enablement"
+    ]
+  },
+  "generatorOptions": {
+    "generator-starterkit-content-downloader": {
+      "registry": "https://npm-registry.whitewater.ibm.com",
+      "scope": "@arf",
+      "version": "latest"
+    },
+    "generator-cloud-enablement": {
+      "registry": "https://npm-registry.whitewater.ibm.com",
+      "scope": "@arf",
+      "version": "latest"
+    }
+  },
+  "requiredCapabilities": [
+    "cloudant"
+  ],
+  "requiredCapabilitiesURLs": {
+    "cloudant": "https://console.bluemix.net/catalog/services/cloudant-nosql-db"
+  },
+  "servicePlans": {
+    "cloudant": "free"
+  },
+  "email": "cloud@us.ibm.com"
+}
